@@ -5,7 +5,7 @@ import androidx.recyclerview.widget.RecyclerView
 
 // Step 3: Complete adapter implementation
 
-class NumberDisplayAdapter /* Step 3a: Provide Adapter Parent */ {
+class NumberDisplayAdapter : RecyclerView.Adapter<> /* Step 3a: Provide Adapter Parent */ {
 
     class NumberViewHolder (val textView: TextView) : RecyclerView.ViewHolder (textView) {}
 
